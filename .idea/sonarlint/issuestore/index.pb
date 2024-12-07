@@ -15,3 +15,5 @@ Z
 *contracts/xenolinguistics-marketplace.clar,4/1/41986f8561381bcc594cd180303981b8aa0d19d2
 Y
 )tests/xenolinguistics-marketplace.test.ts,e/b/eb0a9e3475770319a0a8827407eaa68ab4bcffdb
+O
+tests/et-signal-archive.test.ts,3/7/37893af360577155f52a9197296d4ec753ae6699
