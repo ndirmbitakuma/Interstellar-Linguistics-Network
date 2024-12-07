@@ -50,9 +50,19 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
+            contract-name: et-signal-archive
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/et-signal-archive.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: xenolinguistic-protocol
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/xenolinguistic-protocol.clar
+            clarity-version: 2
+        - emulated-contract-publish:
+            contract-name: xenolinguistics-marketplace
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/xenolinguistics-marketplace.clar
             clarity-version: 2
         - emulated-contract-publish:
             contract-name: xenolinguistics-token

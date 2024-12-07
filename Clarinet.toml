@@ -5,8 +5,18 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.et-signal-archive]
+path = 'contracts/et-signal-archive.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.xenolinguistic-protocol]
 path = 'contracts/xenolinguistic-protocol.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.xenolinguistics-marketplace]
+path = 'contracts/xenolinguistics-marketplace.clar'
 clarity_version = 2
 epoch = 2.5
 
